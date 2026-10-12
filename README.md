@@ -64,4 +64,4 @@ For Minecraft 26.2, pass the version properties:
 Build artifacts are written to `fabric/build/libs/` and `neoforge/build/libs/`.
 
 
--# This code has been written with AI.
+***This code has been written with AI.***
