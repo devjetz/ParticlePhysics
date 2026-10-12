@@ -1,4 +1,10 @@
-# Particle Physics
+![Particle Physics](./src/main/resources/assets/minecraft_title.png)
+
+<p align="center"><b>Particle Physics</b> is a client-side Minecraft mod that completely reimagines a good amount of particles! Adding new physics and better visuals, to make minecraft feel more at home.</p>
+
+<div align="center"><a href="https://modrinth.com/mod/particle-physics"><img alt="modrinth" height="28" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/available/modrinth_vector.svg"></a> <a href="https:///www.curseforge.com/minecraft/mc-mods/the-particle-physics"><img alt="curseforge" height="28" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/available/curseforge_vector.svg"></a> <a href="https://github.com/devjetz/particle_physics"><img alt="github" height="28" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/available/github_vector.svg"></a></div>
+
+---
 
 Particle Physics gives selected vanilla particles more natural movement. Falling leaves flutter in the wind, drift across water, and can keep moving after landing. Underwater bubbles swirl as they rise.
 
