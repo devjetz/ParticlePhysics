@@ -1,0 +1,56 @@
+plugins {
+    id 'net.fabricmc.fabric-loom' version '1.19.0-alpha.2'
+}
+
+group = 'com.particlephysics'
+version = "${mod_version}+${minecraft_version}"
+
+base {
+    archivesName = 'particle-physics-fabric'
+}
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://maven.terraformersmc.com/' }
+    maven { url = 'https://maven.shedaniel.me/' }
+    maven { url = 'https://maven.fabricmc.net/' }
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${minecraft_version}"
+    implementation "net.fabricmc:fabric-loader:${fabric_loader_version}"
+    def modMenuVersion = minecraft_version.startsWith('26.2') ? '20.0.3' : '18.0.2'
+    compileOnly "com.terraformersmc:modmenu:${modMenuVersion}"
+}
+
+sourceSets {
+    main {
+        java.srcDirs = [
+            '../common/src/main/java',
+            'src/main/java'
+        ]
+        resources.srcDirs = [
+            '../common/src/main/resources',
+            'src/main/resources'
+        ]
+    }
+}
+
+processResources {
+    inputs.property 'version', project.version
+    inputs.property 'minecraft_version', minecraft_version
+    filesMatching('fabric.mod.json') {
+        expand('version': project.version, 'minecraft_version': minecraft_version)
+    }
+}
+
+java {
+    sourceCompatibility = JavaVersion.toVersion(java_version)
+    targetCompatibility = JavaVersion.toVersion(java_version)
+    withSourcesJar()
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.release = Integer.parseInt(java_version)
+    options.encoding = 'UTF-8'
+}

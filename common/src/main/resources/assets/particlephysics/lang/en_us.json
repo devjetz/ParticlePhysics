@@ -1,0 +1,15 @@
+{
+  "key.category.particlephysics.main": "Particle Physics",
+  "key.particlephysics.open_config": "Open Particle Physics Settings",
+  "screen.particlephysics.title": "Particle Physics Settings",
+  "screen.particlephysics.toggle": "%s: %s",
+  "screen.particlephysics.master": "Particle physics",
+  "screen.particlephysics.leaves": "Leaf physics",
+  "screen.particlephysics.bubbles": "Bubble physics",
+  "screen.particlephysics.ground_wind": "Wind on grounded leaves",
+  "screen.particlephysics.on": "On",
+  "screen.particlephysics.off": "Off",
+  "screen.particlephysics.wind": "Wind multiplier: %s",
+  "screen.particlephysics.decay": "Leaf lifetime: %s",
+  "screen.particlephysics.seconds": "%s seconds"
+}

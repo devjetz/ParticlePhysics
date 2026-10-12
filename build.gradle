@@ -1,0 +1,5 @@
+// Root build.gradle - minimal configuration for multi-module build
+subprojects {
+    group = 'com.particlephysics'
+    version = mod_version
+}

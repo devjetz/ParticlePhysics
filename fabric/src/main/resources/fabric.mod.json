@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "particlephysics",
+  "version": "${version}",
+  "name": "Particle Physics",
+  "description": "Gives falling leaves lively motion and lets them drift on water.",
+  "environment": "*",
+  "entrypoints": {
+    "modmenu": [
+      "com.particlephysics.client.ParticlePhysicsModMenu"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "particlephysics.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=25"
+  }
+}

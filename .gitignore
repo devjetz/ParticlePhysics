@@ -1,0 +1,14 @@
+.gradle/
+**/build/
+**/run/
+**/run-*/
+.idea/
+*.iml
+*.log
+local.properties
+.DS_Store
+**/saves/
+**/logs/
+**/mods/
+**/usercache.json
+**/launcher_profiles.json
