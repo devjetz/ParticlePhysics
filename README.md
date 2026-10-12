@@ -1,4 +1,4 @@
-![Particle Physics](./src/main/resources/assets/minecraft_title.png)
+![Particle Physics](./common/src/main/resources/assets/minecraft_title.png)
 
 <p align="center"><b>Particle Physics</b> is a client-side Minecraft mod that completely reimagines a good amount of particles! Adding new physics and better visuals, to make minecraft feel more at home.</p>
 
